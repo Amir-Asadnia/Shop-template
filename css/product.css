@@ -3,7 +3,7 @@ main {
 }
 
 .main-content {
-  height: 150rem;
+  height: 151rem;
 }
 
 .background-sec {
@@ -133,4 +133,65 @@ main {
 
 .card-item-button:active {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.8) inset;
+}
+
+.page-link {
+  border-radius: 0.5rem !important;
+  margin: 0 0.5rem;
+  background-color: #a0ac88;
+  box-shadow: none !important;
+  outline: none !important;
+  color: white;
+  border: none;
+}
+
+.page-item.active .page-link {
+  background-color: #6b7555;
+}
+
+.page-item:hover .page-link {
+  background-color: #a0ac88 !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.39) !important;
+  color: white;
+}
+
+.page-item.disabled .page-link {
+  color: #6b7555;
+}
+
+.page-item.disabled:hover .page-link {
+  box-shadow: none !important;
+  background-color: white !important;
+}
+
+.search-icon {
+  width: 3rem;
+  position: absolute;
+  bottom: -124rem;
+  left: 2rem;
+  background-color: #e8f0d6;
+  border-radius: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: box-shadow 0.5s ease;
+}
+
+.search-icon:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.toggle-icon {
+  width: 3rem;
+  position: absolute;
+  bottom: -124rem;
+  right: 2rem;
+  background-color: #e8f0d6;
+  border-radius: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: box-shadow 0.5s ease;
+}
+
+.toggle-icon:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
